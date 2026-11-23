@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gauthier Bros — AI Product Lead · Agents & MCP · Paris</title>
+<meta name="description" content="Gauthier Bros, founder-CEO since 2008. I build AI products that AI assistants use directly: remote MCP servers listed in Claude, ChatGPT and Cursor. Freelance AI product lead, Paris-based, remote within France.">
+<meta property="og:title" content="Gauthier Bros — AI Product Lead · Agents & MCP">
+<meta property="og:description" content="Founder-CEO since 2008. Agentic AI products, MCP servers, LLM product strategy. Paris · remote within France.">
+<meta property="og:type" content="profile">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230b1020'/><text x='50%' y='56%' font-family='Arial' font-weight='700' font-size='30' fill='%23a5b4fc' text-anchor='middle' dominant-baseline='middle'>GB</text></svg>">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Gauthier Bros","jobTitle":"AI Product Lead · Founder-CEO","url":"https://brosg.github.io/","email":"mailto:gauthier.bros@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Paris","addressCountry":"FR"},"sameAs":["https://www.linkedin.com/in/gauthier-bros","https://github.com/BrosG","https://gauthier.ai","https://www.malt.fr/profile/gauthierbros"],"knowsAbout":["Generative AI","AI agents","Model Context Protocol","LLM","Product management","SaaS","Web3"]}
+</script>
+<style>
+:root{--ink:#0b1020;--text:#1e293b;--muted:#5b6478;--line:#e5e7f0;--bg:#f7f8fc;--card:#fff;--accent:#4f46e5;--accent2:#7c3aed;--soft:#eef0ff;--ok:#059669}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(247,248,252,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:22px;height:58px}
+.logo{font-weight:800;color:var(--ink);letter-spacing:-.02em}
+nav .links{display:flex;gap:18px;font-size:14px;margin-left:auto}
+nav .links a{color:var(--muted)}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff}
+.lang button{border:0;background:none;padding:5px 11px;font:600 12px/1 inherit;color:var(--muted);cursor:pointer}
+.lang button.on{background:var(--ink);color:#fff}
+/* hero */
+header.hero{background:radial-gradient(1200px 500px at 85% -20%,#3b2f9e 0%,transparent 60%),linear-gradient(135deg,#0b1020 0%,#151b3b 100%);color:#e6e8f5;padding:72px 0 64px}
+.hero .grid{display:grid;grid-template-columns:1fr 220px;gap:40px;align-items:center}
+.kicker{font:600 12px/1 ui-monospace,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:#a5b4fc}
+h1{font-size:46px;line-height:1.08;letter-spacing:-.03em;margin:14px 0 12px;color:#fff}
+.hero p.lead{font-size:19px;color:#c7cbe3;max-width:640px;margin:0 0 22px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.pill{font-size:13px;border:1px solid rgba(165,180,252,.35);color:#dfe3ff;border-radius:999px;padding:5px 12px;background:rgba(255,255,255,.04)}
+.pill.ok{border-color:rgba(52,211,153,.5);color:#a7f3d0}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:10px;font-weight:600;font-size:15px}
+.btn.primary{background:#fff;color:var(--ink)}
+.btn.ghost{border:1px solid rgba(255,255,255,.25);color:#fff}
+.btn:hover{text-decoration:none;opacity:.92}
+.photo{width:220px;height:220px;border-radius:24px;object-fit:cover;border:3px solid rgba(255,255,255,.12);box-shadow:0 20px 60px rgba(0,0,0,.4)}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-34px;position:relative}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 6px 24px rgba(15,23,42,.06)}
+.stat b{display:block;font-size:26px;color:var(--ink);letter-spacing:-.02em}
+.stat span{font-size:13px;color:var(--muted)}
+/* sections */
+section{padding:56px 0 8px}
+h2{font-size:28px;letter-spacing:-.02em;color:var(--ink);margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;display:flex;flex-direction:column;gap:8px;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(15,23,42,.08)}
+.card h3{margin:0;font-size:17px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.badge{font:600 10.5px/1 ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.08em;padding:4px 7px;border-radius:6px;background:var(--soft);color:var(--accent)}
+.badge.live{background:#ecfdf5;color:var(--ok)}
+.card p{margin:0;font-size:14.5px;color:#374151}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+.tag{font-size:12px;color:var(--muted);background:#f1f3f9;border-radius:6px;padding:3px 7px}
+.card .lk{font-size:13.5px;display:flex;gap:14px;flex-wrap:wrap}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.filters button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font:600 13px/1 inherit;color:var(--muted);cursor:pointer}
+.filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+/* timeline */
+.tl{border-left:2px solid var(--line);margin-left:8px;padding-left:24px}
+.job{position:relative;padding-bottom:26px}
+.job:before{content:"";position:absolute;left:-32px;top:6px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--accent)}
+.job .top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.job h3{margin:0;font-size:18px;color:var(--ink)}
+.job .when{font:600 13px/1.6 ui-monospace,Menlo,monospace;color:var(--muted)}
+.job .org{color:var(--muted);font-size:14.5px;margin:2px 0 6px}
+.job ul{margin:6px 0 0 18px;padding:0}
+.job li{margin:3px 0}
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.skill{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.skill h4{margin:0 0 8px;color:var(--ink);font-size:15px}
+.skill .tags{padding-top:0}
+/* engage */
+.engage{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.eng{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}
+.eng h4{margin:0 0 6px;color:var(--ink);font-size:16px}
+.eng p{margin:0;color:#374151;font-size:14.5px}
+.contact{background:linear-gradient(135deg,#0b1020,#1e1b4b);color:#e6e8f5;border-radius:20px;padding:36px;margin:56px 0 40px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+.contact h2{color:#fff}
+.contact p{margin:0;color:#c7cbe3}
+footer{color:var(--muted);font-size:13px;padding:0 0 40px;text-align:center}
+[data-l="fr"]{display:none}
+body.fr [data-l="en"]{display:none}
+body.fr [data-l="fr"]{display:revert}
+@media(max-width:860px){.hero .grid{grid-template-columns:1fr}.photo{width:140px;height:140px;order:-1}h1{font-size:34px}.stats{grid-template-columns:repeat(2,1fr)}.engage{grid-template-columns:1fr}nav .links{display:none}}
+@media print{nav,.filters,.cta,.lang{display:none!important}header.hero{padding:24px 0;background:#0b1020;-webkit-print-color-adjust:exact;print-color-adjust:exact}.card,.stat,.skill,.eng{break-inside:avoid}.contact{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <span class="logo">Gauthier Bros</span>
+  <div class="links">
+    <a href="#projects"><span data-l="en">Projects</span><span data-l="fr">Projets</span></a>
+    <a href="#experience"><span data-l="en">Experience</span><span data-l="fr">Expérience</span></a>
+    <a href="#skills"><span data-l="en">Skills</span><span data-l="fr">Compétences</span></a>
+    <a href="#work"><span data-l="en">Work with me</span><span data-l="fr">Collaborer</span></a>
+  </div>
+  <div class="lang"><button id="b-en" class="on" onclick="setLang('en')">EN</button><button id="b-fr" onclick="setLang('fr')">FR</button></div>
+</div></nav>
+
+<header class="hero"><div class="wrap grid">
+  <div>
+    <div class="kicker"><span data-l="en">AI Product Lead · Founder-CEO since 2008</span><span data-l="fr">Lead produit IA · Fondateur-CEO depuis 2008</span></div>
+    <h1><span data-l="en">I build AI products that AI assistants use directly.</span><span data-l="fr">Je crée des produits IA que les assistants IA utilisent directement.</span></h1>
+    <p class="lead"><span data-l="en">Agentic AI, MCP servers and LLM features, shipped end to end: strategy, code and distribution. My remote MCP servers are listed in the official MCP Registry, Claude's connector directory, ChatGPT and Cursor.</span><span data-l="fr">IA agentique, serveurs MCP et fonctionnalités LLM, livrés de bout en bout : stratégie, code et distribution. Mes serveurs MCP distants sont référencés dans le MCP Registry officiel, l'annuaire des connecteurs de Claude, ChatGPT et Cursor.</span></p>
+    <div class="pills">
+      <span class="pill ok"><span data-l="en">● Available for freelance missions</span><span data-l="fr">● Disponible en freelance</span></span>
+      <span class="pill"><span data-l="en">Paris-based · on-site/hybrid in Paris</span><span data-l="fr">Basé à Paris · sur site / hybride à Paris</span></span>
+      <span class="pill"><span data-l="en">Remote for companies in France</span><span data-l="fr">Full remote pour les entreprises en France</span></span>
+      <span class="pill">FR · EN</span>
+    </div>
+    <div class="cta">
+      <a class="btn primary" href="mailto:gauthier.bros@gmail.com?subject=Mission%20freelance"><span data-l="en">Contact me</span><span data-l="fr">Me contacter</span></a>
+      <a class="btn ghost" href="Gauthier_Bros_CV_EN.pdf" data-l="en">Download CV (EN)</a>
+      <a class="btn ghost" href="Gauthier_Bros_CV_FR.pdf" data-l="fr">Télécharger le CV (FR)</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/gauthier-bros" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/BrosG" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <img class="photo" src="photo.png" alt="Gauthier Bros">
+</div></header>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b>18 <span data-l="en">yrs</span><span data-l="fr">ans</span></b><span><span data-l="en">founder-CEO, product &amp; tech</span><span data-l="fr">fondateur-CEO, produit &amp; tech</span></span></div>
+    <div class="stat"><b>4</b><span><span data-l="en">remote MCP servers in production</span><span data-l="fr">serveurs MCP distants en production</span></span></div>
+    <div class="stat"><b>30+</b><span><span data-l="en">open-source tools &amp; apps on GitHub</span><span data-l="fr">outils et apps open source sur GitHub</span></span></div>
+    <div class="stat"><b>3</b><span><span data-l="en">companies founded</span><span data-l="fr">sociétés fondées</span></span></div>
+  </div>
+
+  <section id="projects">
+    <h2><span data-l="en">Projects</span><span data-l="fr">Projets</span></h2>
+    <p class="sub"><span data-l="en">Products I designed and built, most of them live today.</span><span data-l="fr">Produits que j'ai conçus et développés, la plupart en ligne aujourd'hui.</span></p>
+    <div class="filters" id="filters"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="experience">
+    <h2><span data-l="en">Experience</span><span data-l="fr">Expérience</span></h2>
+    <p class="sub"><span data-l="en">Three companies founded, always hands-on in product and code.</span><span data-l="fr">Trois sociétés fondées, toujours au cœur du produit et du code.</span></p>
+    <div class="tl">
+      <div class="job"><div class="top"><h3><span data-l="en">Founder &amp; AI Product Builder</span><span data-l="fr">Fondateur &amp; Product Builder IA</span></h3><span class="when">2025 — <span data-l="en">now</span><span data-l="fr">aujourd'hui</span></span></div>
+        <div class="org"><span data-l="en">Self-employed · Paris</span><span data-l="fr">Indépendant · Paris</span></div>
+        <ul data-l="en"><li>Designed, built and shipped five AI products (DrUrls, PageToVid, Nyna, FlowKy, AIFR) and a zero-knowledge API-key vault (APIKEY Connect), each with a small footprint and no team.</li><li>Remote MCP servers with OAuth 2.1 (PKCE, dynamic client registration), listed in the official MCP Registry, Claude's connector directory, ChatGPT and Cursor.</li><li>Claude Code plugins, VS Code and Chrome extensions; distribution through AI-assistant directories.</li></ul>
+        <ul data-l="fr"><li>Conception, développement et mise en production de cinq produits IA (DrUrls, PageToVid, Nyna, FlowKy, AIFR) et d'un coffre-fort de clés d'API zéro connaissance (APIKEY Connect), sans équipe.</li><li>Serveurs MCP distants avec OAuth 2.1 (PKCE, enregistrement dynamique de clients), référencés dans le MCP Registry officiel, l'annuaire des connecteurs de Claude, ChatGPT et Cursor.</li><li>Plugins Claude Code, extensions VS Code et Chrome ; distribution via les annuaires des assistants IA.</li></ul>
+      </div>
+      <div class="job"><div class="top"><h3><span data-l="en">Co-founder &amp; CEO</span><span data-l="fr">Cofondateur &amp; CEO</span></h3><span class="when">2014 — <span data-l="en">now</span><span data-l="fr">aujourd'hui</span></span></div>
+        <div class="org">ATAYEN, Inc.</div>
+        <ul data-l="en"><li>Created SaTT (Smart Advertising Transaction Token): advertisers launch campaigns and creators are paid automatically on verified results from Facebook, Instagram, YouTube and X.</li><li>Multichain smart contracts (Ethereum, BNB Chain, Polygon, Tron, BitTorrent Chain), non-custodial wallet, oracle API, fee-and-burn token model.</li><li>Led product, tech and go-to-market: web3 front-end and back-end, wallet, exchange listings, community growth.</li></ul>
+        <ul data-l="fr"><li>Création de SaTT (Smart Advertising Transaction Token) : les annonceurs lancent des campagnes, les créateurs sont payés automatiquement sur résultats vérifiés (Facebook, Instagram, YouTube, X).</li><li>Smart contracts multichaînes (Ethereum, BNB Chain, Polygon, Tron, BitTorrent Chain), wallet non custodial, API oracle, tokenomics (frais et burn).</li><li>Pilotage produit, technique et go-to-market : front et back web3, wallet, listings sur exchanges, croissance de la communauté.</li></ul>
+      </div>
+      <div class="job"><div class="top"><h3><span data-l="en">Co-founder</span><span data-l="fr">Cofondateur</span></h3><span class="when">2010 — 2014</span></div>
+        <div class="org">iFrame Apps</div>
+        <ul data-l="en"><li>Self-serve apps for Facebook business pages (contact forms, newsletters, stores, coupons), freemium distribution to SMBs worldwide.</li><li>Co-created one of the first live-streaming solutions on Facebook (2010); the technology became the foundation of ATAYEN.</li></ul>
+        <ul data-l="fr"><li>Applications en libre-service pour pages Facebook d'entreprise (formulaires, newsletters, boutiques, coupons), distribution freemium auprès de PME dans le monde.</li><li>Co-création de l'une des premières solutions de live streaming sur Facebook (2010), base technologique d'ATAYEN.</li></ul>
+      </div>
+      <div class="job"><div class="top"><h3>CEO</h3><span class="when">2008 — 2011</span></div>
+        <div class="org">Label-Internet</div>
+        <ul data-l="en"><li>App development company building applications for clients; led sales, product and delivery.</li></ul>
+        <ul data-l="fr"><li>Société de développement d'applications pour des clients : vente, produit et delivery.</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2><span data-l="en">Skills</span><span data-l="fr">Compétences</span></h2>
+    <p class="sub"><span data-l="en">What I use every week.</span><span data-l="fr">Ce que j'utilise chaque semaine.</span></p>
+    <div class="skills">
+      <div class="skill"><h4><span data-l="en">AI &amp; agents</span><span data-l="fr">IA &amp; agents</span></h4><div class="tags"><span class="tag">Generative AI</span><span class="tag">LLM</span><span class="tag">AI agents</span><span class="tag">Model Context Protocol</span><span class="tag">Claude / Claude Code</span><span class="tag">OpenAI API</span><span class="tag">Gemini</span><span class="tag">ChatGPT apps</span><span class="tag">Prompt design</span></div></div>
+      <div class="skill"><h4><span data-l="en">Product</span><span data-l="fr">Produit</span></h4><div class="tags"><span class="tag">Product strategy</span><span class="tag">Product Owner</span><span class="tag">Roadmap &amp; backlog</span><span class="tag">MVP</span><span class="tag">Product-market fit</span><span class="tag">Go-to-market</span><span class="tag">PLG</span><span class="tag">SaaS</span></div></div>
+      <div class="skill"><h4><span data-l="en">Engineering</span><span data-l="fr">Technique</span></h4><div class="tags"><span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">Firebase</span><span class="tag">Google Cloud</span><span class="tag">AWS</span><span class="tag">Stripe</span><span class="tag">OAuth 2.1</span><span class="tag">VS Code &amp; Chrome extensions</span><span class="tag">Angular</span></div></div>
+      <div class="skill"><h4><span data-l="en">Growth &amp; web3</span><span data-l="fr">Croissance &amp; web3</span></h4><div class="tags"><span class="tag">SEO</span><span class="tag">Adtech &amp; martech</span><span class="tag">Influencer marketing</span><span class="tag">Smart contracts</span><span class="tag">Tokenomics</span><span class="tag">Wallets</span></div></div>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2><span data-l="en">Work with me</span><span data-l="fr">Collaborer</span></h2>
+    <p class="sub"><span data-l="en">Freelance, part-time or mission-based. Paris on-site/hybrid, or fully remote for companies in France.</span><span data-l="fr">Freelance, temps partagé ou en mission. Sur site / hybride à Paris, ou full remote pour les entreprises en France.</span></p>
+    <div class="engage">
+      <div class="eng"><h4><span data-l="en">Fractional AI product lead</span><span data-l="fr">Lead produit IA en temps partagé</span></h4><p><span data-l="en">Define your AI or agent strategy, prioritise use cases, run the roadmap and the team that ships it.</span><span data-l="fr">Définir votre stratégie IA ou agents, prioriser les cas d'usage, piloter la roadmap et l'équipe qui livre.</span></p></div>
+      <div class="eng"><h4><span data-l="en">AI MVP in weeks</span><span data-l="fr">MVP IA en quelques semaines</span></h4><p><span data-l="en">From idea to a working product: LLM features, MCP server, Claude or ChatGPT app, with auth and billing.</span><span data-l="fr">De l'idée au produit qui fonctionne : fonctionnalités LLM, serveur MCP, app Claude ou ChatGPT, avec authentification et paiement.</span></p></div>
+      <div class="eng"><h4><span data-l="en">Expert calls &amp; advisory</span><span data-l="fr">Appels d'expert &amp; conseil</span></h4><p><span data-l="en">Agents and MCP, AI distribution, SaaS, adtech and web3, for investors, consultancies and product teams.</span><span data-l="fr">Agents et MCP, distribution IA, SaaS, adtech et web3, pour investisseurs, cabinets de conseil et équipes produit.</span></p></div>
+    </div>
+  </section>
+
+  <div class="contact">
+    <div><h2><span data-l="en">Let's talk</span><span data-l="fr">Parlons-en</span></h2><p>gauthier.bros@gmail.com · Paris, France</p></div>
+    <div class="cta">
+      <a class="btn primary" href="mailto:gauthier.bros@gmail.com"><span data-l="en">Email me</span><span data-l="fr">M'écrire</span></a>
+      <a class="btn ghost" href="https://www.malt.fr/profile/gauthierbros" target="_blank" rel="noopener">Malt</a>
+      <a class="btn ghost" href="https://gauthier.ai" target="_blank" rel="noopener">gauthier.ai</a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 Gauthier Bros</footer>
+
+<script>
+const P=[
+{n:"DrUrls",c:"ai",live:1,url:"https://drurls.com",gh:"https://github.com/DrUrls/mcp",
+ en:"Website audits inside Claude and ChatGPT: 189 checks across SEO, Core Web Vitals, security and accessibility, each issue with its exact fix, plus Google indexability.",
+ fr:"Audits de sites web dans Claude et ChatGPT : 189 contrôles SEO, Core Web Vitals, sécurité et accessibilité, chaque anomalie avec son correctif, plus l'indexabilité Google.",
+ t:["Remote MCP","OAuth 2.1","MCP Registry","SEO"]},
+{n:"PageToVid",c:"ai",live:1,url:"https://pagetovid.com",gh:"https://github.com/PageToVid/claude-plugins",
+ en:"Turns any public web page into a narrated, captioned video by filming the real site. MCP server, Claude Code plugin and a one-line “film this” skill.",
+ fr:"Transforme une page web publique en vidéo narrée et sous-titrée en filmant le vrai site. Serveur MCP, plugin Claude Code et une skill « film this ».",
+ t:["MCP","Claude Code plugin","Video","TTS"]},
+{n:"Nyna",c:"ai",live:1,url:"https://nyna.ai",gh:"https://github.com/Bros-AI/nyna-mcp",
+ en:"An AI wedding planner that works inside Claude, ChatGPT and Cursor: plan, real vendors, guest list, budget, checklist and run sheet.",
+ fr:"Un wedding planner IA qui fonctionne dans Claude, ChatGPT et Cursor : plan, vrais prestataires, invités, budget, checklist et déroulé du jour J.",
+ t:["Remote MCP","OAuth 2.1 + PKCE","Consumer AI"]},
+{n:"AIFR",c:"ai",live:1,url:"https://aifr.ai",gh:"https://github.com/IA-France-Revolution",
+ en:"French public-finance open data for AI assistants: 24.4M entities, 663K subsidies, 800K public accounts and 643K elected mandates, through an MCP server.",
+ fr:"Les données ouvertes des finances publiques françaises pour les assistants IA : 24,4 M d'entités, 663 K subventions, 800 K comptes publics, 643 K mandats, via un serveur MCP.",
+ t:["MCP","Open data","Data engineering"]},
+{n:"FlowKy",c:"ai",live:1,url:"https://flowky.ai",gh:"https://github.com/flowKy-ai/flowky",
+ en:"Memory, guardrails and a project map for AI coding agents, so they stop relearning your codebase every session. VS Code extension + Claude Code plugin.",
+ fr:"Mémoire, garde-fous et carte du projet pour les agents IA de code, pour qu'ils ne réapprennent plus votre codebase à chaque session. Extension VS Code + plugin Claude Code.",
+ t:["Developer tools","VS Code","Claude Code"]},
+{n:"APIKEY Connect",c:"ai",live:1,url:"https://apikeyconnect.com",gh:"https://github.com/APIKEYconnect",
+ en:"Zero-knowledge vault for API keys: AES-256-GCM, end-to-end encrypted team sharing, .env tooling. Chrome and VS Code extensions, web platform.",
+ fr:"Coffre-fort zéro connaissance pour clés d'API : AES-256-GCM, partage d'équipe chiffré de bout en bout, outils .env. Extensions Chrome et VS Code, plateforme web.",
+ t:["Security","Chrome MV3","Firebase","Stripe"]},
+{n:"Vidlens",c:"ai",live:1,url:"https://vidlens.net",gh:"https://github.com/VideoTag/videotag",
+ en:"Timestamped reactions and comments on videos from many platforms, exportable as a self-contained offline pack; on-device Whisper transcription.",
+ fr:"Réactions et commentaires horodatés sur des vidéos de nombreuses plateformes, exportables en pack hors ligne autonome ; transcription Whisper en local.",
+ t:["Whisper","Video","Offline"]},
+{n:"Autopilot Lite for Claude Code",c:"oss",gh:"https://github.com/BrosG/claude-autopilot-free",
+ en:"Open-source Claude Code plugin: a map of your project at each session start, a warning before context gets expensive, and a doctor for running hooks.",
+ fr:"Plugin open source pour Claude Code : une carte du projet à chaque session, une alerte avant que le contexte ne coûte cher, et un diagnostic des hooks.",
+ t:["Claude Code","Hooks","MIT"]},
+{n:"RepoAnalyzer",c:"oss",gh:"https://github.com/BrosG/repo-analyzer",
+ en:"AI analysis of GitHub repositories with several LLM providers: issue recommendations, code insights and project-health summaries.",
+ fr:"Analyse IA de dépôts GitHub avec plusieurs fournisseurs de LLM : recommandations d'issues, analyse du code et santé du projet.",
+ t:["Multi-LLM","GitHub API"]},
+{n:"Logoutify Console",c:"oss",live:1,url:"https://brosg.github.io/logoutify-console/",gh:"https://github.com/BrosG/logoutify-console",
+ en:"Bring-your-own-key workbench for a threat-intelligence API: bulk scans, watchlists, request lab, local-only history. No backend, no tracking.",
+ fr:"Console « apportez votre clé » pour une API de threat intelligence : scans en masse, listes de surveillance, labo de requêtes, historique local.",
+ t:["Cybersecurity","PWA"]},
+{n:"MolForge · IncheyKey",c:"sci",gh:"https://github.com/MolForge/IncheyKey",
+ en:"Molecule identifier converter: SMILES, InChI, InChIKey, IUPAC name, formula and PubChem CID, with auto-detection, 2D structure and properties. Fully client-side.",
+ fr:"Convertisseur d'identifiants moléculaires : SMILES, InChI, InChIKey, nom IUPAC, formule et CID PubChem, détection automatique, structure 2D et propriétés. 100 % côté client.",
+ t:["Cheminformatics","PubChem API"]},
+{n:"SignPDF",c:"oss",gh:"https://github.com/Bros-AI/SignPDF",
+ en:"Sign, initial and stamp PDFs entirely in the browser, including realistic company stamps. No accounts, no uploads.",
+ fr:"Signer, parapher et tamponner des PDF entièrement dans le navigateur, avec des tampons d'entreprise réalistes. Sans compte, sans envoi.",
+ t:["pdf-lib","Privacy"]},
+{n:"Gemini TTS Studio",c:"oss",gh:"https://github.com/Bros-AI/TTS-Studio",
+ en:"Text-to-speech studio on Google Gemini voices, in the browser.",
+ fr:"Studio de synthèse vocale sur les voix Google Gemini, dans le navigateur.",
+ t:["Gemini","TTS"]},
+{n:"Mermaid Chart Studio",c:"oss",gh:"https://github.com/Bros-AI/Mermaid-Chart-Studio",
+ en:"Free diagram editor for flowcharts and visualizations from Mermaid code, with live preview and export.",
+ fr:"Éditeur de diagrammes gratuit à partir de code Mermaid, avec aperçu en direct et export.",
+ t:["Diagrams"]},
+{n:"Learn Reading",c:"oss",gh:"https://github.com/Bros-AI/Learn-Reading",
+ en:"Interactive app that helps children learn to read, with speech recognition.",
+ fr:"Application interactive d'apprentissage de la lecture pour enfants, avec reconnaissance vocale.",
+ t:["EdTech","Speech recognition"]},
+{n:"SaTT · ATAYEN",c:"web3",gh:"https://github.com/SaTT-Wallet",
+ en:"Smart-contract advertising platform paying creators on verified results, with a non-custodial multichain wallet (Angular front-end, Node back-end).",
+ fr:"Plateforme publicitaire en smart contracts qui paie les créateurs sur résultats vérifiés, avec wallet multichaîne non custodial (front Angular, back Node).",
+ t:["Smart contracts","Multichain","Wallet"]}
+];
+const CAT={all:{en:"All",fr:"Tout"},ai:{en:"AI products",fr:"Produits IA"},oss:{en:"Open source & tools",fr:"Open source & outils"},sci:{en:"Science",fr:"Science"},web3:{en:"Web3",fr:"Web3"}};
+let lang=(new URLSearchParams(location.search).get('lang'))||((navigator.language||'').startsWith('fr')?'fr':'en'), cat='all';
+function render(){
+  document.getElementById('filters').innerHTML=Object.keys(CAT).map(k=>`<button class="${k===cat?'on':''}" onclick="cat='${k}';render()">${CAT[k][lang]}</button>`).join('');
+  document.getElementById('cards').innerHTML=P.filter(p=>cat==='all'||p.c===cat).map(p=>`<div class="card"><h3>${p.n} ${p.live?`<span class="badge live">${lang==='fr'?'en ligne':'live'}</span>`:`<span class="badge">${CAT[p.c][lang]}</span>`}</h3><p>${p[lang]}</p><div class="lk">${p.url?`<a href="${p.url}" target="_blank" rel="noopener">${p.url.replace(/^https?:\/\//,'').replace(/\/$/,'')} ↗</a>`:''}${p.gh?`<a href="${p.gh}" target="_blank" rel="noopener">GitHub ↗</a>`:''}</div><div class="tags">${p.t.map(x=>`<span class="tag">${x}</span>`).join('')}</div></div>`).join('');
+}
+function setLang(l){lang=l;document.body.classList.toggle('fr',l==='fr');document.documentElement.lang=l;document.getElementById('b-en').classList.toggle('on',l==='en');document.getElementById('b-fr').classList.toggle('on',l==='fr');render();}
+setLang(lang);
+</script>
+</body>
+</html>
